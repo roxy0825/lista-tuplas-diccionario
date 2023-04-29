@@ -17,7 +17,7 @@ listaEstudiantes={}
 listaEstudiantes["valeria"]=4.1
 listaEstudiantes["Laura"]=5
 listaEstudiantes["richard"]=4
-
+print(listaEstudiantes.items())
 
 for nombre, nota in listaEstudiantes.items():
     print(nombre,"Tiene una nota de ", nota)
